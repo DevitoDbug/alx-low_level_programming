@@ -8,8 +8,6 @@
  *Return: Always 0 (Success)
  */
 
-
-
 int main(void)
 {
 	int n, last_digit;
@@ -28,7 +26,7 @@ int main(void)
 	}
 	else if (last_digit < 6 && last_digit != 0)
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n",n, n % d);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
 	}
 	return (0);
 }
