@@ -3,10 +3,12 @@
 #include <time.h>
 
 /**
- * Main entry point
- * Finds last digit and checks condition
- * Return: Always 0 (Success)
+ *main - Entry point
+ *
+ *Return: Always 0 (Success)
  */
+
+
 
 int main(void)
 {
@@ -26,8 +28,7 @@ int main(void)
 	}
 	else if (last_digit < 6 && last_digit != 0)
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0\n",\
-				n, last_digit);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n",n, n % d);
 	}
 	return (0);
 }
