@@ -4,7 +4,7 @@
 
 /**
  * Main entry point
- *
+ * Finds last digit and checks condition
  * Return: Always 0 (Success)
  */
 
