@@ -16,8 +16,10 @@ int main(void)
 	{
 		putchar(j);
 		if (j < 57)
-		putchar(44);
-		putchar(' ');
+		{
+			putchar(44);
+			putchar(' ');
+		}
 	}
 	return (0);
 }
