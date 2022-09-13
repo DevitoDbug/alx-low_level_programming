@@ -10,10 +10,12 @@
 int main(void)
 {
 	int i;
+	char letters[26] = "abcdefghijklmnopqrstuvwxyz";
 
-	for (i = 97; i <= 122; i++)
+	for (i = 0; i <=26; i++)
 	{
-		_putchar(i);
+		_putchar(letter[i]);
 	}
+	_putchar('\n');
 	return (0);
 }
