@@ -4,7 +4,7 @@
 #include "main.h"
 
 /**
- *print_last_digit - prints the last digit 
+ *print_last_digit - prints the last digit
  *@c: number  being manupilated
  * Return: Always 0.
  */
