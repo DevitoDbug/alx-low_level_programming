@@ -1,5 +1,6 @@
 #include <unistd.h>
 #include <ctype.h>
+#include <stdlib.h>  
 #include "main.h"
 
 /**
@@ -9,5 +10,8 @@
  */
 int _abs(int c)
 {
-	return (abs(c));
+	int x;
+
+	x = abs(c);
+	return (x);
 }
