@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- *print_alphabet - prints the letters of the alphabet
+ *print_alphabet_x10 - prints the letters of the alphabet
  *
  * Return: Always 0.
  */
