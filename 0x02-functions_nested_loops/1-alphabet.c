@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * _putchar - writes the character each alphabet to character to the stdout
+ *main - check the code for Holberton School students.
  *
- *Return: On success 1.
- *On error, -1 is returned, and errno is set appropriately.
-*/
+ * Return: Always 0.
+ */
 
 int main(void)
 {
