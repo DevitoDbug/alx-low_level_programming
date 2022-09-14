@@ -4,7 +4,7 @@
 #include "main.h"
 
 /**
- *jack_bauer - prints time 
+ *jack_bauer - prints time
  *
  * Return: Always 0.
  */
