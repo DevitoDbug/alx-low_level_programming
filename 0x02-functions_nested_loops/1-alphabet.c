@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include "_putchar"
+#include "main.h"
 
 /**
  *main - check the code for Holberton School students.
