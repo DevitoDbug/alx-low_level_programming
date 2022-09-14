@@ -6,13 +6,13 @@
  *Return: On success 1.
  *On error, -1 is returned, and errno is set appropriately.
 */
-int alphabet(void);
+void print_alphabet(void);
 
 int main(void)
 {
-	alphabet();
+	print_alphabet();
 }
-int alphabet(void)
+void print_alphabet(void);
 {
 	int i;
 	char letters[26] = "abcdefghijklmnopqrstuvwxyz";
